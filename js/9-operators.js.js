@@ -51,3 +51,7 @@ if (2<5){
 } else {
     console.log('nie');
 }
+
+var liczba = 100;
+var wynik = ( liczba < 0 ) ? -1 : 1;
+console.log( wynik ); // wynik = 1 
